@@ -86,15 +86,19 @@
         border-top: 1px solid #0003;
         p {
             font-size: 1rem;
-            padding: 20px 0 20px;
+            padding: 20px 0 0;
             text-align: center;
+        }
 
+        span {
+            display: flex;
+            justify-content: center;
             a {
-                a {
-                    color: $secondary-color;
-                    padding: 0 10px;
-                }
+                color: $secondary-color;
+                padding-left: 5px;
             }
+
+            padding: 10px 0 20px;
         }
     }
 

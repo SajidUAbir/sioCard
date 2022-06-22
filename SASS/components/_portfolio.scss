@@ -49,7 +49,10 @@
             
             @include heading_fs(45px);
             color: $white;
-            padding-bottom: 50px;
+        }
+
+        img {
+            padding: 20px 0 40px;
         }
     }
 

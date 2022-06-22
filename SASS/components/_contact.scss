@@ -11,9 +11,13 @@
         }
         p {
             @include pera_fs();
-            padding: 20px 0 50px;
+            padding: 20px 0 0;
             font-size: 22px;
             color: $gray;
+        }
+
+        img {
+            padding: 20px 0 55px;
         }
     }
 

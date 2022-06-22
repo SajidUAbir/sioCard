@@ -9,7 +9,10 @@
     .services_heading {
         h2 {
             @include heading_fs(45px);
-            padding-bottom: 60px;
+        }
+
+        img {
+            padding: 20px 0 55px;
         }
     }
     .services_content {
