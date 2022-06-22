@@ -101,7 +101,7 @@ ul, ol {
 /* ==============  Menu begin ============== */
 .menu {
   background-color: #F2F2F2;
-  padding: 15px 0;
+  padding: 25px 0;
 }
 
 .menu .nav-link {
@@ -291,7 +291,7 @@ ul, ol {
 
 /* ==============  services begin ============== */
 #services {
-  padding: 100px 0;
+  padding: 100px 0 50px;
 }
 
 #services .services_heading h2 {
@@ -330,6 +330,7 @@ ul, ol {
   height: 100%;
   z-index: -1;
   background-attachment: fixed;
+  margin-bottom: 100px;
 }
 
 #portfolio .nav-pills {
@@ -439,7 +440,7 @@ ul, ol {
 
 /* ==============  begin ============== */
 #pricing {
-  padding: 100px 0;
+  padding: 0 0 100px;
 }
 
 #pricing .pricing_heading h2 {

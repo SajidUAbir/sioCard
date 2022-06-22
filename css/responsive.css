@@ -8,9 +8,14 @@
         box-shadow: none;
     }
 
+    #banner .ban_hand {
+        display: none;
+    }
+
     #services .services_content p {
         padding-bottom: 50px;
     }
+    
 
  }
 
@@ -26,14 +31,22 @@
     #footer::after {
         bottom: 15%;
     }
+
+    #banner .ban_hand {
+        display: block;
+    }
  }
 
 
 @media (min-width: 1200px) { 
-
+    #banner .ban_hand {
+        display: block;
+    }
  }
 
 
 @media (min-width: 1400px) { 
-
+    #banner .ban_hand {
+        display: block;
+    }
  }
