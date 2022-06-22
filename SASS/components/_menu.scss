@@ -1,0 +1,117 @@
+@import "../abstracts/variables";
+@import "../abstracts/mixins";
+
+
+/* ==============  Back to top begin ============== */
+.bktp i{
+    background-color: $secondary-color;
+    border-radius: 5px;
+    color: #fff;
+    display: none;
+    cursor: pointer;
+    height: 30px;
+    width: 50px;
+    line-height: 30px;
+    text-align: center;
+    position: fixed;
+    right: 20px;
+    bottom: 50px;
+    z-index: 999;
+}
+
+/* ==============  messsage ============== */
+.message {
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    padding: 5px 20px;
+    width: 15%;
+    background-color: $secondary-color;
+    color: $white;
+    cursor: pointer;
+    z-index: 999;
+}
+
+/* ==============  Menu begin ============== */
+.menu {
+    background-color: $primary-color;
+    padding: 15px 0;
+
+    // comment out to fix navbar on the top
+    
+    // position: fixed;
+    // z-index: 999;
+    // width: 100%;
+    
+    
+
+    .nav-link {
+
+        color: $light-black;
+        font-family: $ff2;
+        font-weight: 400;
+        font-size: 18px;
+        position: relative;
+        
+
+        &:hover {
+            color: $secondary-color;
+        }
+
+        
+
+        &:hover::before {
+            opacity: 1;
+            width: 70%;
+        }
+
+        &::before {
+            background-color: $secondary-color;
+            height: 2px;
+            width: 0%;
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            opacity: 0;
+            transition: all linear 0.3s;
+            
+        }
+    }
+
+
+   .nav_form {
+    display: flex;
+    gap: 15px;
+    margin-left: 15px;
+
+    .sign_up {
+    
+        p {
+            background-color: $secondary-color;
+            padding: 5px 20px;
+            color: $white;
+            cursor: pointer;
+            &:hover {
+                background-color: $deep-blue;
+            }
+        }
+       }
+    
+       .sign_in {
+        p {
+            background-color: $secondary-color;
+            padding: 5px 20px;
+            color: $white;
+            cursor: pointer;
+            &:hover {
+                background-color: $deep-blue;
+            }
+        }
+       }
+}
+    
+
+
+}

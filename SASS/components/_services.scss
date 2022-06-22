@@ -1,0 +1,38 @@
+@import "../abstracts/variables";
+@import "../abstracts/mixins";
+
+/* ==============  services begin ============== */
+#services {
+    // background-color: $primary-color;
+    padding: 100px 0;
+
+    .services_heading {
+        h2 {
+            @include heading_fs(45px);
+            padding-bottom: 60px;
+        }
+    }
+    .services_content {
+        
+        
+
+        h3 {
+            @include heading_fs(null);
+            padding: 30px 0 10px;
+            font-weight: 400;
+                font-size: 20px;
+                color: #333;
+                font-weight: 600;
+
+        }
+
+        p {
+            font-family: $ff2;
+            font-size: 18px;
+            line-height: 24px;
+            color: #666;
+            color: $gray;
+            padding: 0 20px;
+        }
+    }
+}

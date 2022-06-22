@@ -1,0 +1,50 @@
+@import "../abstracts/variables";
+@import "../abstracts/mixins";
+
+/* ============== about begin ============== */
+#about {
+    padding: 100px 0;
+
+    .about_heading {
+        h3 {
+            @include heading_fs(60px);
+            padding-bottom: 60px;
+        }
+    }
+
+    .about_bg {
+        background: url(../images/about_pic.jpg) no-repeat center / cover;
+        padding: 225px 0;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        z-index: 1;
+
+        &:after {
+            @include overly(#0008)
+        }
+    }
+
+    .about_text {
+        p {
+            @include pera_fs();
+            color: $gray;
+            padding: 60px 0 30px;
+            line-height: 40px;
+            font-size: 25px;
+        }
+
+        h3 {
+            @include heading_fs(null);
+            font-weight: 500;
+            color: $light-black;
+        }
+
+        h4 {
+            @include pera_fs();
+            color: $gray;
+            font-size: 20px;
+        }
+    }
+}
+/* ============== about end ============== */

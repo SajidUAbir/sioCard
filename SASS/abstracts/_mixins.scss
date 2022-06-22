@@ -1,0 +1,30 @@
+// typo
+
+@mixin heading_fs($fz) {
+    color: #333333;
+    font-family: $ff1;
+    font-size: $fz;
+    font-weight: 700;
+}
+
+@mixin pera_fs {
+    color: #333333;
+    font-family: $ff2;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+@mixin overly($c) {
+    background-color: $c;
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+

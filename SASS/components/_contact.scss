@@ -1,0 +1,68 @@
+@import "../abstracts/variables";
+@import "../abstracts/mixins";
+
+/* ==============  begin ============== */
+#contact {
+    padding: 0 0 100px;
+
+    .contact_heading {
+        h2 {
+            @include heading_fs(45px);
+        }
+        p {
+            @include pera_fs();
+            padding: 20px 0 50px;
+            font-size: 22px;
+            color: $gray;
+        }
+    }
+
+    .name_field {
+        input {
+            width: 100%;
+            height: 100%;
+            padding: 15px;
+            outline: 0;
+            border: 0;
+            box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+            &::placeholder {
+                @include heading_fs(null);
+                font-weight: 400;
+            }
+        }
+    }
+
+    .message_field {
+        margin-top: 5px;
+        textarea {
+            @include heading_fs(null);
+            font-weight: 400;
+            padding: 20px;
+            width: 100%;
+            height: 100%;
+            outline: 0;
+            border: 0;
+            box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+            resize: none;
+        }
+    }
+
+    .contact_btn {
+        margin-top: 40px;
+        text-align: center;
+        a {
+            @include heading_fs(18px);
+            font-weight: 400;
+            width: 150px;
+            padding: 15px;
+            background-color: $secondary-color;
+            color: $white;
+            transition: all linear 0.5s;
+            
+
+            &:hover {
+                background-color: $deep-blue;
+            }
+        }
+    }
+}

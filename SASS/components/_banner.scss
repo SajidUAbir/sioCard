@@ -1,0 +1,61 @@
+@import "../abstracts/variables";
+@import "../abstracts/mixins";
+
+/* ============== banner begin ============== */
+
+#banner {
+    background: url(../images/banner1.jpg) no-repeat center / cover;
+    padding: 195px 0 280px;
+    height: 100%;
+    width: 100%;
+    position: relative;
+
+
+    .banner_text {
+        color: $light-black;
+        h1 {
+            font-size: 65px;
+            font-weight: 700;
+            text-transform: capitalize;
+            line-height: 80px;
+            color: $light-black;
+        }
+
+        h1 span {
+            color: $secondary-color;
+            position: relative;
+            border-bottom: 3px solid $secondary-color;
+            font-size: 65px;
+            font-weight: 700;
+        }
+
+        p {
+            padding-top: 40px;
+        }
+
+        .ban_btn {
+            a {
+            background: $secondary-color;
+            color: $white;
+            margin: 57px 0px 0px 0px;
+            padding: 15px 25px;
+
+            &:hover {
+                background: $deep-blue;
+                transition: all linear 0.4s;
+            }
+            }
+
+            
+        }
+    }
+
+    .ban_hand {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+
+}
+
+/* ============== banner end ============== */

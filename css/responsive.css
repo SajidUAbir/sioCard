@@ -1,0 +1,39 @@
+@media (min-width: 556.99px) { 
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    #services .services_content p {
+        padding-bottom: 50px;
+    }
+
+ }
+
+
+@media (min-width: 768px) { 
+    #footer::after {
+        bottom: 10%;
+    }
+ }
+
+
+@media (min-width: 992px) { 
+    #footer::after {
+        bottom: 15%;
+    }
+ }
+
+
+@media (min-width: 1200px) { 
+
+ }
+
+
+@media (min-width: 1400px) { 
+
+ }

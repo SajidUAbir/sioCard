@@ -1,0 +1,104 @@
+@import "../abstracts/variables";
+@import "../abstracts/mixins";
+
+/* ==============  begin ============== */
+#footer {
+    background-color: $primary-color;
+    padding: 100px 0 0;
+    position: relative;
+
+    .footer_title {
+        padding: 0 0 30px;
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .footer_icon {
+        p {
+            
+            @include pera_fs();
+            padding: 0 0 20px;
+        }
+
+        a {
+            i {
+                background-color: $secondary-color;
+                color: $white;
+                height: 40px;
+                width: 40px;
+                line-height: 40px;
+                text-align: center;
+
+                &:hover {
+                    background-color: $deep-blue;
+                }
+            }
+        }
+    }
+
+    .site_content {
+        ul {
+            li {
+                a {
+                    @include heading_fs(16px);
+                    font-weight: 400;
+
+                    &:hover {
+                        color: $secondary-color;
+                    }
+                }
+            }
+        }
+    }
+
+    .about_content {
+        ul {
+            li {
+                a {
+                    @include heading_fs(16px);
+                    font-weight: 400;
+                    
+                    &:hover {
+                        color: $secondary-color;
+                    }
+                }
+            }
+        }
+    }
+
+    .contact_content {
+        ul {
+            li {
+                a {
+                    @include heading_fs(16px);
+                    font-weight: 400;
+                    
+
+                    &:hover {
+                        color: $secondary-color;
+                    }
+                }
+            }
+        }
+    }
+
+    .copyright {
+        border-top: 1px solid #0003;
+        p {
+            font-size: 1rem;
+            padding: 20px 0 20px;
+            text-align: center;
+
+            a {
+                a {
+                    color: $secondary-color;
+                    padding: 0 10px;
+                }
+            }
+        }
+    }
+
+    
+    
+}
+

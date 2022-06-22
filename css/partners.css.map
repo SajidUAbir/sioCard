@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAGA,0CAA0C;AAC1C,AAAA,SAAS,CAAC;EACN,gBAAgB,ECAJ,OAAO;EDCnB,OAAO,EAAE,OAAO;CACnB",
+    "sources": [
+        "../SASS/components/partners.scss",
+        "../SASS/abstracts/_variables.scss",
+        "../SASS/abstracts/_mixins.scss"
+    ],
+    "names": [],
+    "file": "partners.css"
+}
