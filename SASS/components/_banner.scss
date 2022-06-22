@@ -4,7 +4,8 @@
 /* ============== banner begin ============== */
 
 #banner {
-    background: url(../images/banner1.jpg) no-repeat center / cover;
+    background: url(../images/banner1.jpg) no-repeat;
+    background-position: 100% 100%;
     padding: 195px 0 280px;
     height: 100%;
     width: 100%;
